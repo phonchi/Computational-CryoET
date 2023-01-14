@@ -12,21 +12,8 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 - [**Computational CryoET Methods**](#computational-cryoET-methods)
 - [**Resources**](#resources)
 - [**Workflow**](#workflow)
-    - [Motion correction](#motion-correction)
-    - [CTF estimation](#ctf-estimation)
-    - [Particle picking](#particle-picking)
-    - [2D classification](#2D-classification)
-    - [Ab-initial Model](#ab-initial-model)
-    - [3D refinement](#3d-refinement)
-    - [3D variability analysis](#3D-variability-analysis)
-    - [Postprocessing](#postprocessing)
 - [**Conventions**](#conventions)
-- [**Tips**](#tips)
-    - [Format Conversion](#format-conversion)
-    - [Performing Focus Classification](#performing-focus-classification)
-    - [Display images](#display-images)
-    - [Using Chimera](#using-chimera)
-- [**Contributing**](#contributing)
+
 
 ---
 
