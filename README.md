@@ -1,11 +1,11 @@
 # Computational CryoET Methods 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This repository is a curated list for computational cryo-ET methods!
+This repository is a curated list of computational cryo-ET methods!
 
 You will find the paper and associated software for the popular algorithms used in the cryo-ET field.
 
-The format for the item is [software link] - [Paper link] (Available in which package) and the headings may contain a ink to a review paper.
+The format for the item is [software link] - [Paper link] (Available in which package) and the headings may contain a link to a review paper.
 
 
 
@@ -20,7 +20,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 
 # Resources
 ## Preface
-* [Protein Folding Problem](https://www.youtube.com/watch?v=KpedmJdrTpY&t=2s&ab_channel=DeepMind) - Great video that describes the importance of understanding protein structure.
+* [Protein Folding Problem](https://www.youtube.com/watch?v=KpedmJdrTpY&t=2s&ab_channel=DeepMind) - Great video describes the importance of understanding protein structure.
 * [What is cryoET](https://cryoem101.org/chapter-1-et/) - Great article that describes the cryoET.
 
 ## Introduction
