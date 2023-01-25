@@ -112,9 +112,11 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`CryoCARE`](https://github.com/juglab/cryoCARE_T2T) - [**Content-aware image restoration for electron microscopy**](https://www.sciencedirect.com/science/article/abs/pii/S0091679X19300706?via%3Dihub)
 
 ## Particle picking
+1. [`DeePiCt `](https://github.com/ZauggGroup/DeePiCt) - [**Convolutional networks for supervised mining of molecular patterns within cellular context**](https://www.nature.com/articles/s41592-022-01746-2)
 1. [`DeepFinder`](https://github.com/deep-finder/deep-finder) - [**Deep learning improves macromolecule identification in 3D cellular cryo-electron tomograms**](https://www.nature.com/articles/s41592-021-01275-4)
 1. [`Cryolo`](https://cryolo.readthedocs.io/en/stable/) - [**SPHIRE-crYOLO is a fast and accurate fully automated particle picker for cryo-EM**](https://www.nature.com/articles/s42003-019-0437-z). [[Video](https://www.youtube.com/watch?v=JTgldM4wAAk&list=UUbo1TnKiXGtkE_R5b526JmQ&index=6&t=1s&app=desktop)]
 1. [`PySeg`](https://github.com/anmartinezs/pyseg_system) - [**Template-free detection and classification of membrane-bound complexes in cryo-electron tomograms**](https://www.nature.com/articles/s41592-019-0675-5)
+
 
 ## Sub-tomogram alignment and averaging
 1. [`emClarity`](https://github.com/StochasticAnalytics/emClarity) - [**emClarity: software for high-resolution cryo-electron tomography and subtomogram averaging**](https://www.nature.com/articles/s41592-018-0167-z)
