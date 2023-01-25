@@ -103,8 +103,8 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`M`](http://www.warpem.com/warp/?page_id=827) - [**Multi-particle cryo-EM refinement with M visualizes ribosome-antibiotic complex at 3.5 Å inside cells**](https://www.nature.com/articles/s41592-020-01054-7). [[Video]](https://www.youtube.com/watch?v=kiS-ELvQ1gc&list=PLFEB3YHuxu11Jp_pOCIEtXxSqozFHve0O&index=18)
 
 ## Tomogram reconstruction
-1. [**A Survey of the Use of Iterative Reconstruction Algorithms in Electron Microscopy**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5623807/)``
-1. [`Tomo3D`](https://sites.google.com/site/3demimageprocessing/tomo3d) -['**Tomo3D 2.0 – Exploitation of Advanced Vector eXtensions (AVX) for 3D reconstruction**](https://www.sciencedirect.com/science/article/pii/S1047847714002603)
+1. [**A Survey of the Use of Iterative Reconstruction Algorithms in Electron Microscopy**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5623807/)
+1. [`Tomo3D`](https://sites.google.com/site/3demimageprocessing/tomo3d) -[**Tomo3D 2.0 – Exploitation of Advanced Vector eXtensions (AVX) for 3D reconstruction**](https://www.sciencedirect.com/science/article/pii/S1047847714002603)
 
 ### [Denoising tomogram](https://www.sciencedirect.com/science/article/pii/S104784772100109X)
 1. [`TomoEED`](https://sites.google.com/site/3demimageprocessing/tomoeed) - [**TomoEED: fast edge-enhancing denoising of tomographic volumes**](https://pubmed.ncbi.nlm.nih.gov/29850773/)
