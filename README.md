@@ -12,6 +12,14 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 - [**Computational CryoET Methods**](#computational-cryoET-methods)
 - [**Resources**](#resources)
 - [**Workflow**](#workflow)
+    - [Motion correction](#motion-correction)
+    - [Tilt-series alignment](#tilt-series-alignment)
+    - [CTF estimation and correction](#ctf-estimation-and-correction)
+    - [Tomogram reconstruction](#tomogram-reconstruction)
+    - [Particle picking](#particle-picking)
+    - [Sub-tomogram alignment and averaging](#sub-tomogram-alignment-and-averaging)
+    - [Classification](#classification)
+    - [Postprocessing](#postprocessing)
 - [**Conventions**](#conventions)
 
 
@@ -72,24 +80,50 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 3. [`CisTEM_Simulate`](https://github.com/timothygrant80/cisTEM/blob/master/src/programs/simulate/simulate.cpp) - [**Cryo-TEM simulations of amorphous radiation-sensitive samples using multislice wave propagation**](https://www.biorxiv.org/content/10.1101/2021.02.19.431636v2)
 
 ## Motion correction
+1. [`MotionCorr2`](https://emcore.ucsf.edu/ucsf-motioncor2) - [**MotionCor2: anisotropic correction of beam-induced motion for improved cryo-electron microscopy**](https://www.nature.com/articles/nmeth.4193?proof=t) (Use in `Relion`)
+1. [`Unblur`](https://grigoriefflab.umassmed.edu/unblur_summovie) - [**Measuring the optimal exposure for single particle cryo-EM using a 2.6 Å reconstruction of rotavirus VP6**](https://elifesciences.org/articles/06980)
+1. [`Alignparts`](https://sites.google.com/site/rubinsteingroup/direct-detector-align_lmbfgs) - [**Alignment of cryo-EM Movies of Individual Particles by Optimization of Image Translations**](https://pubmed.ncbi.nlm.nih.gov/26296328/) 
+1. `FlexAlign` - [**FlexAlign: An Accurate and Fast Algorithm for Movie Alignment in Cryo-Electron Microscopy**](https://www.mdpi.com/2079-9292/9/6/1040/htm) - (Use in `Scipion`)
+
 
 ## Tilt-series alignment
+### [Fiducial based](https://link.springer.com/chapter/10.1007/978-0-387-69008-7_6)
+1. [`IMOD`](https://bio3d.colorado.edu/imod/) - [**Automated tilt series alignment and tomographic reconstruction in IMOD**](https://www.sciencedirect.com/science/article/pii/S1047847716301526)
+### Fiducialless
+1. [`AreTomo`](https://drive.google.com/drive/folders/1Z7pKVEdgMoNaUmd_cOFhlt-QCcfcwF3_) - [**AreTomo: An integrated software package for automated marker-free, motion-corrected cryo-electron tomographic alignment and reconstruction**](https://www.sciencedirect.com/science/article/pii/S2590152422000095)
+1. [`TomoAlign`](https://sites.google.com/site/3demimageprocessing/tomoalign) - [**Cryo-tomography tilt-series alignment with consideration of the beam-induced sample motion**](https://www.sciencedirect.com/science/article/pii/S1047847718300285)
 
-## CTF estimation
 
-## CTF correction
+## CTF estimation and correction
+1. [`CTFFIND4`](https://grigoriefflab.umassmed.edu/ctffind4) - [**CTFFIND4: Fast and accurate defocus estimation from electron micrographs**](https://www.sciencedirect.com/science/article/pii/S1047847715300460) ( Use in [`CisTEM`](http://grigoriefflab.janelia.org/ctffind4))
+1. [`gCTF`](https://www2.mrc-lmb.cam.ac.uk/research/locally-developed-software/zhang-software/#gctf) - [**Gctf: Real-time CTF determination and correction**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4711343/)
+1. [`ctfplotter`](https://bio3d.colorado.edu/imod/doc/ctfHelp/ctfguide.html#top)- [**CTF determination and correction for low dose tomographic tilt series**](https://www.sciencedirect.com/science/article/pii/S1047847709002433) (Use in IMOD)
+1. [`novaCTF`](https://github.com/turonova/novaCTF) - [**Efficient 3D-CTF correction for cryo-electron tomography using NovaCTF improves subtomogram averaging resolution to 3.4 Å**](https://www.sciencedirect.com/science/article/pii/S1047847717301272?via%3Dihub)
+1. [`Warp`](http://www.warpem.com/warp/?page_id=378) 
+1. [`M`](http://www.warpem.com/warp/?page_id=827) - [**Multi-particle cryo-EM refinement with M visualizes ribosome-antibiotic complex at 3.5 Å inside cells**](https://www.nature.com/articles/s41592-020-01054-7). [[Video]](https://www.youtube.com/watch?v=kiS-ELvQ1gc&list=PLFEB3YHuxu11Jp_pOCIEtXxSqozFHve0O&index=18)
 
 ## Tomogram reconstruction
+1. [**A Survey of the Use of Iterative Reconstruction Algorithms in Electron Microscopy**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5623807/)``
+1. [`Tomo3D`](https://sites.google.com/site/3demimageprocessing/tomo3d) -['**Tomo3D 2.0 – Exploitation of Advanced Vector eXtensions (AVX) for 3D reconstruction**](https://www.sciencedirect.com/science/article/pii/S1047847714002603)
 
-### Denoising tomogram
+### [Denoising tomogram](https://www.sciencedirect.com/science/article/pii/S104784772100109X)
+1. [`TomoEED`](https://sites.google.com/site/3demimageprocessing/tomoeed) - [**TomoEED: fast edge-enhancing denoising of tomographic volumes**](https://pubmed.ncbi.nlm.nih.gov/29850773/)
+1. [`CryoCARE`](https://github.com/juglab/cryoCARE_T2T) - [**Content-aware image restoration for electron microscopy**](https://www.sciencedirect.com/science/article/abs/pii/S0091679X19300706?via%3Dihub)
 
 ## Particle picking
+1. [`DeepFinder`](https://github.com/deep-finder/deep-finder) - [**Deep learning improves macromolecule identification in 3D cellular cryo-electron tomograms**](https://www.nature.com/articles/s41592-021-01275-4)
+1. [`Cryolo`](https://cryolo.readthedocs.io/en/stable/) - [**SPHIRE-crYOLO is a fast and accurate fully automated particle picker for cryo-EM**](https://www.nature.com/articles/s42003-019-0437-z). [[Video](https://www.youtube.com/watch?v=JTgldM4wAAk&list=UUbo1TnKiXGtkE_R5b526JmQ&index=6&t=1s&app=desktop)]
+1. [`PySeg`](https://github.com/anmartinezs/pyseg_system) - [**Template-free detection and classification of membrane-bound complexes in cryo-electron tomograms**](https://www.nature.com/articles/s41592-019-0675-5)
 
 ## Sub-tomogram alignment and averaging
+1. [`emClarity`](https://github.com/StochasticAnalytics/emClarity) - [**emClarity: software for high-resolution cryo-electron tomography and subtomogram averaging**](https://www.nature.com/articles/s41592-018-0167-z)
+1. [`Dynamo`](https://wiki.dynamo.biozentrum.unibas.ch/w/index.php/Main_Page) - [**Dynamo: A flexible, user-friendly development tool for subtomogram averaging of cryo-EM data in high-performance computing environments**](https://www.sciencedirect.com/science/article/pii/S1047847711003650)
 
-## Classification
+## [Classification](https://www.sciencedirect.com/science/article/pii/S0169260722003996)
 
 ## Post-processing
+### Local resolution
+1. Monotomo - [**Measurement of local resolution in electron tomography**](https://www.sciencedirect.com/science/article/pii/S2590152419300145)
 
 ## Visualization
 1. [`Chimera`](https://www.cgl.ucsf.edu/chimera/) - [**UCSF Chimera--a Visualization System for Exploratory Research and Analysis**](https://pubmed.ncbi.nlm.nih.gov/15264254/)
