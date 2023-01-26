@@ -67,11 +67,12 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 
 2. From tutorial data set.
 * https://scipion-em.github.io/docs/release-3.0.0/docs/user/user-documentation.html#tomography-tutorials
-* https://www.shrec.net/cryo-et/
 
 3. Generate simulation data
     * https://github.com/xulabs/aitom/blob/master/doc/tutorials/004_simulate_whole_tomogram.py
     * https://github.com/xulabs/aitom/blob/master/doc/tutorials/003_simulate_subtomogram.py
+    * https://github.com/anmartinezs/pyseg_system/blob/master/code/pyorg/scripts/synthetic/gen_microsomes.py
+    * * https://www.shrec.net/cryo-et/
 
 ## Image Formation model
 1. [`TEM Simulator`](http://tem-simulator.sourceforge.net/) - [**Simulation of transmission electron microscope images of biological specimens**](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2818.2011.03497.x)
