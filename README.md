@@ -124,6 +124,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`Dynamo`](https://wiki.dynamo.biozentrum.unibas.ch/w/index.php/Main_Page) - [**Dynamo: A flexible, user-friendly development tool for subtomogram averaging of cryo-EM data in high-performance computing environments**](https://www.sciencedirect.com/science/article/pii/S1047847711003650)
 
 ## [Classification](https://www.sciencedirect.com/science/article/pii/S0169260722003996)
+1. [`AITom`](https://github.com/xulabs/aitom/blob/master/doc/publications.md) - [**High-throughput cryo-ET structural pattern mining by unsupervised deep iterative subtomogram clustering**](https://www.pnas.org/doi/10.1073/pnas.2213149120)
 
 ## Post-processing
 ### Local resolution
