@@ -57,8 +57,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 * [Dynamo](https://wiki.dynamo.biozentrum.unibas.ch/w/index.php/Main_Page)
 * [AITom](https://github.com/xulabs/aitom)
 * [PyTom](https://github.com/FridoF/PyTom)
-
-
+* [TomoBEAR](https://github.com/KudryashevLab/TomoBEAR)
 
 
 # Workflow
@@ -117,11 +116,12 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`DeepFinder`](https://github.com/deep-finder/deep-finder) - [**Deep learning improves macromolecule identification in 3D cellular cryo-electron tomograms**](https://www.nature.com/articles/s41592-021-01275-4)
 1. [`Cryolo`](https://cryolo.readthedocs.io/en/stable/) - [**SPHIRE-crYOLO is a fast and accurate fully automated particle picker for cryo-EM**](https://www.nature.com/articles/s42003-019-0437-z). [[Video](https://www.youtube.com/watch?v=JTgldM4wAAk&list=UUbo1TnKiXGtkE_R5b526JmQ&index=6&t=1s&app=desktop)]
 1. [`PySeg`](https://github.com/anmartinezs/pyseg_system) - [**Template-free detection and classification of membrane-bound complexes in cryo-electron tomograms**](https://www.nature.com/articles/s41592-019-0675-5)
-
+1. [`TomoTwin`](https://github.com/MPI-Dortmund/tomotwin-cryoet) - [**TomoTwin: generalized 3D localization of macromolecules in cryo-electron tomograms with structural data mining**](https://www.nature.com/articles/s41592-023-01878-z)
 
 ## Sub-tomogram alignment and averaging
 1. [`emClarity`](https://github.com/StochasticAnalytics/emClarity) - [**emClarity: software for high-resolution cryo-electron tomography and subtomogram averaging**](https://www.nature.com/articles/s41592-018-0167-z)
 1. [`Dynamo`](https://wiki.dynamo.biozentrum.unibas.ch/w/index.php/Main_Page) - [**Dynamo: A flexible, user-friendly development tool for subtomogram averaging of cryo-EM data in high-performance computing environments**](https://www.sciencedirect.com/science/article/pii/S1047847711003650)
+1. [`IsoNet`](https://github.com/IsoNet-cryoET/IsoNet) - [**Isotropic reconstruction for electron tomography with deep learning**](https://www.nature.com/articles/s41467-022-33957-8)
 
 ## [Classification](https://www.sciencedirect.com/science/article/pii/S0169260722003996)
 1. [`AITom`](https://github.com/xulabs/aitom/blob/master/doc/publications.md) - [**High-throughput cryo-ET structural pattern mining by unsupervised deep iterative subtomogram clustering**](https://www.pnas.org/doi/10.1073/pnas.2213149120)
