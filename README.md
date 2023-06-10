@@ -68,6 +68,10 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 * https://scipion-em.github.io/docs/release-3.0.0/docs/user/user-documentation.html#tomography-tutorials
 
 3. Generate simulation data
+    * [`PolNet`](https://github.com/anmartinezs/polnet) - [**Simulating the cellular context in synthetic datasets for cryo-electron tomography**](https://github.com/anmartinezs/polnet)
+    * [`faket`](https://gitlab.com/deepet/faket) - [**Simulating the cellular context in synthetic datasets for cryo-electron tomography**](https://arxiv.org/abs/2304.02011)
+    * https://github.com/MPI-Dortmund/tem-simulator-scripts
+    * [`MEPSi`](https://github.com/pyCoAn/distro) - [**MEPSi: A tool for simulating tomograms of membrane-embedded proteins**](https://www.sciencedirect.com/science/article/pii/S1047847722000910#da005)
     * https://github.com/xulabs/aitom/blob/master/doc/tutorials/004_simulate_whole_tomogram.py
     * https://github.com/xulabs/aitom/blob/master/doc/tutorials/003_simulate_subtomogram.py
     * https://github.com/anmartinezs/pyseg_system/blob/master/code/pyorg/scripts/synthetic/gen_microsomes.py
@@ -94,7 +98,6 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`AreTomo`](https://drive.google.com/drive/folders/1Z7pKVEdgMoNaUmd_cOFhlt-QCcfcwF3_) - [**AreTomo: An integrated software package for automated marker-free, motion-corrected cryo-electron tomographic alignment and reconstruction**](https://www.sciencedirect.com/science/article/pii/S2590152422000095)
 1. [`TomoAlign`](https://sites.google.com/site/3demimageprocessing/tomoalign) - [**Cryo-tomography tilt-series alignment with consideration of the beam-induced sample motion**](https://www.sciencedirect.com/science/article/pii/S1047847718300285)
 
-
 ## CTF estimation and correction
 1. [`CTFFIND4`](https://grigoriefflab.umassmed.edu/ctffind4) - [**CTFFIND4: Fast and accurate defocus estimation from electron micrographs**](https://www.sciencedirect.com/science/article/pii/S1047847715300460) ( Use in [`CisTEM`](http://grigoriefflab.janelia.org/ctffind4))
 1. [`gCTF`](https://www2.mrc-lmb.cam.ac.uk/research/locally-developed-software/zhang-software/#gctf) - [**Gctf: Real-time CTF determination and correction**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4711343/)
@@ -108,8 +111,10 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`Tomo3D`](https://sites.google.com/site/3demimageprocessing/tomo3d) -[**Tomo3D 2.0 – Exploitation of Advanced Vector eXtensions (AVX) for 3D reconstruction**](https://www.sciencedirect.com/science/article/pii/S1047847714002603)
 
 ### [Denoising tomogram](https://www.sciencedirect.com/science/article/pii/S104784772100109X)
-1. [`TomoEED`](https://sites.google.com/site/3demimageprocessing/tomoeed) - [**TomoEED: fast edge-enhancing denoising of tomographic volumes**](https://pubmed.ncbi.nlm.nih.gov/29850773/)
+1. [`SC-Net`](https://github.com/icthrm/SC-Net) - [**Self-Supervised Cryo-Electron Tomography Volumetric Image Restoration from Single Noisy Volume with Sparsity Constraint**](https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Self-Supervised_Cryo-Electron_Tomography_Volumetric_Image_Restoration_From_Single_Noisy_Volume_ICCV_2021_paper.pdf)
 1. [`CryoCARE`](https://github.com/juglab/cryoCARE_T2T) - [**Content-aware image restoration for electron microscopy**](https://www.sciencedirect.com/science/article/abs/pii/S0091679X19300706?via%3Dihub)
+2. [`Topaz`](https://github.com/tbepler/topaz) - [**Topaz-Denoise: general deep denoising models for cryoEM**](https://www.nature.com/articles/s41467-020-18952-1)
+3. [`TomoEED`](https://sites.google.com/site/3demimageprocessing/tomoeed) - [**TomoEED: fast edge-enhancing denoising of tomographic volumes**](https://pubmed.ncbi.nlm.nih.gov/29850773/)
 
 ## Particle picking
 1. [`DeePiCt `](https://github.com/ZauggGroup/DeePiCt) - [**Convolutional networks for supervised mining of molecular patterns within cellular context**](https://www.nature.com/articles/s41592-022-01746-2)
