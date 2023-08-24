@@ -117,7 +117,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 2. [`Topaz`](https://github.com/tbepler/topaz) - [**Topaz-Denoise: general deep denoising models for cryoEM**](https://www.nature.com/articles/s41467-020-18952-1)
 3. [`TomoEED`](https://sites.google.com/site/3demimageprocessing/tomoeed) - [**TomoEED: fast edge-enhancing denoising of tomographic volumes**](https://pubmed.ncbi.nlm.nih.gov/29850773/)
 
-## Particle picking
+## [Particle picking](https://www.sciencedirect.com/science/article/pii/S0022283623001274)
 1. [`DeePiCt `](https://github.com/ZauggGroup/DeePiCt) - [**Convolutional networks for supervised mining of molecular patterns within cellular context**](https://www.nature.com/articles/s41592-022-01746-2)
 1. [`DeepFinder`](https://github.com/deep-finder/deep-finder) - [**Deep learning improves macromolecule identification in 3D cellular cryo-electron tomograms**](https://www.nature.com/articles/s41592-021-01275-4)
 1. [`Cryolo`](https://cryolo.readthedocs.io/en/stable/) - [**SPHIRE-crYOLO is a fast and accurate fully automated particle picker for cryo-EM**](https://www.nature.com/articles/s42003-019-0437-z). [[Video](https://www.youtube.com/watch?v=JTgldM4wAAk&list=UUbo1TnKiXGtkE_R5b526JmQ&index=6&t=1s&app=desktop)]
