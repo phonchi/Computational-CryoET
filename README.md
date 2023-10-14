@@ -132,6 +132,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 ## [Classification](https://www.sciencedirect.com/science/article/pii/S0169260722003996)
 1. [`AITom`](https://github.com/xulabs/aitom/blob/master/doc/publications.md) - [**High-throughput cryo-ET structural pattern mining by unsupervised deep iterative subtomogram clustering**](https://www.pnas.org/doi/10.1073/pnas.2213149120)
 2. [`TomoDRGN`](https://github.com/bpowell122/tomodrgn) - [**Learning structural heterogeneity from cryo-electron sub-tomograms with tomoDRGN**](https://www.biorxiv.org/content/10.1101/2023.05.31.542975v1)
+3. [`CryoDRGN-ET`](https://github.com/ml-struct-bio/cryodrgn) - [**Deep reconstructing generative networks for visualizing dynamic biomolecules inside cells**](https://www.biorxiv.org/content/10.1101/2023.08.18.553799v1)
 
 ## Post-processing
 ### Local resolution
