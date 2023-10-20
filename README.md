@@ -69,6 +69,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 * https://scipion-em.github.io/docs/release-3.0.0/docs/user/user-documentation.html#tomography-tutorials
 
 3. Generate simulation data
+    * [`cryoSRPNT`](https://github.com/bpowell122/cryoSRPNT/tree/master)
     * [`PolNet`](https://github.com/anmartinezs/polnet) - [**Simulating the cellular context in synthetic datasets for cryo-electron tomography**](https://github.com/anmartinezs/polnet)
     * [`faket`](https://gitlab.com/deepet/faket) - [**Simulating the cellular context in synthetic datasets for cryo-electron tomography**](https://arxiv.org/abs/2304.02011)
     * https://github.com/MPI-Dortmund/tem-simulator-scripts
@@ -76,7 +77,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
     * https://github.com/xulabs/aitom/blob/master/doc/tutorials/004_simulate_whole_tomogram.py
     * https://github.com/xulabs/aitom/blob/master/doc/tutorials/003_simulate_subtomogram.py
     * https://github.com/anmartinezs/pyseg_system/blob/master/code/pyorg/scripts/synthetic/gen_microsomes.py
-    * * https://www.shrec.net/cryo-et/
+    * https://www.shrec.net/cryo-et/
 
 ## Image Formation model
 1. [`TEM Simulator`](http://tem-simulator.sourceforge.net/) - [**Simulation of transmission electron microscope images of biological specimens**](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2818.2011.03497.x)
@@ -90,7 +91,6 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`Unblur`](https://grigoriefflab.umassmed.edu/unblur_summovie) - [**Measuring the optimal exposure for single particle cryo-EM using a 2.6 Å reconstruction of rotavirus VP6**](https://elifesciences.org/articles/06980)
 1. [`Alignparts`](https://sites.google.com/site/rubinsteingroup/direct-detector-align_lmbfgs) - [**Alignment of cryo-EM Movies of Individual Particles by Optimization of Image Translations**](https://pubmed.ncbi.nlm.nih.gov/26296328/) 
 1. `FlexAlign` - [**FlexAlign: An Accurate and Fast Algorithm for Movie Alignment in Cryo-Electron Microscopy**](https://www.mdpi.com/2079-9292/9/6/1040/htm) - (Use in `Scipion`)
-
 
 ## Tilt-series alignment
 ### [Fiducial based](https://link.springer.com/chapter/10.1007/978-0-387-69008-7_6)
