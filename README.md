@@ -1,6 +1,10 @@
 # Computational CryoET Methods 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<div align="center">
+    <img src="https://github.com/phonchi/Computational-CryoET/assets/11373055/ba4ce0de-edf7-4d69-8ff9-b59cd0635b06" width="300">
+</div>
+
 This repository is a curated list of computational cryo-ET methods!
 
 You will find the paper and associated software for the popular algorithms used in the cryo-ET field.
