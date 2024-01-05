@@ -123,6 +123,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`Cryolo`](https://cryolo.readthedocs.io/en/stable/) - [**SPHIRE-crYOLO is a fast and accurate fully automated particle picker for cryo-EM**](https://www.nature.com/articles/s42003-019-0437-z). [[Video](https://www.youtube.com/watch?v=JTgldM4wAAk&list=UUbo1TnKiXGtkE_R5b526JmQ&index=6&t=1s&app=desktop)]
 1. [`PySeg`](https://github.com/anmartinezs/pyseg_system) - [**Template-free detection and classification of membrane-bound complexes in cryo-electron tomograms**](https://www.nature.com/articles/s41592-019-0675-5)
 1. [`TomoTwin`](https://github.com/MPI-Dortmund/tomotwin-cryoet) - [**TomoTwin: generalized 3D localization of macromolecules in cryo-electron tomograms with structural data mining**](https://www.nature.com/articles/s41592-023-01878-z)
+1. [**Extensive Angular Sampling Enables the Sensitive Localization of Macromolecules in Electron Tomograms**](https://www.mdpi.com/1422-0067/24/17/13375) (Use in `PyTom`)
 
 ## Sub-tomogram alignment and averaging
 1. [`emClarity`](https://github.com/StochasticAnalytics/emClarity) - [**emClarity: software for high-resolution cryo-electron tomography and subtomogram averaging**](https://www.nature.com/articles/s41592-018-0167-z)
@@ -141,6 +142,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 ## Visualization
 1. [`Chimera`](https://www.cgl.ucsf.edu/chimera/) - [**UCSF Chimera--a Visualization System for Exploratory Research and Analysis**](https://pubmed.ncbi.nlm.nih.gov/15264254/)
 2. [`ChimeraX`](http://www.rbvi.ucsf.edu/chimerax/) - [**UCSF ChimeraX: Meeting modern challenges in visualization and analysis**](https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3235)
+3. [`ArtiaX`](https://github.com/FrangakisLab/ArtiaX)
 
 # Conventions
 ## 3DEM Convention
