@@ -55,6 +55,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 ## [Software](http://3dem.ucsd.edu/software.shtm)
 * [Scipion](http://scipion.i2pc.es/) - An integrated platform that allows users to use a variety of methods in the same framework. [[Documentation](https://scipion-em.github.io/docs/)]
 * [Relion](https://www3.mrc-lmb.cam.ac.uk/relion/index.php?title=Main_Page) - A comprehensive package. [[Documentation](https://relion.readthedocs.io/en/release-4.0/STA_tutorial/index.html#)]
+* [nextPYP](https://www.nature.com/articles/s41592-023-02045-0) - [[Documentation](https://nextpyp.app/files/pyp/latest/docs/index.html)]
 * [emClarity](https://github.com/StochasticAnalytics/emClarity) - [[Documentation](https://github.com/ffyr2w/emClarity-tutorial)]
 * [IMDO](https://bio3d.colorado.edu/imod/)
 * [EMAN2](https://blake.bcm.edu/emanwiki/EMAN2/e2tomo)
