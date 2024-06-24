@@ -37,6 +37,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 
 ## Introduction
 * [Cryo-ET 101](https://cryoem101.org/) - Deomnstrate the principles of cryo-ET using a media-rich approach with videos, animations, interactive simulation.
+* [Computational methods for in situ structural studies with cryogenic electron tomography](https://www.frontiersin.org/articles/10.3389/fcimb.2023.1135013/full) - A review focus on computational methods.
 * [The promise and the challenges of cryo-electron tomography](https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1873-3468.13948) - A great review to start with.
 * [Toward high-resolution in situ structural biology with cryo-electron tomography and subtomogram averaging](https://www.sciencedirect.com/science/article/pii/S0959440X18301738?via%3Dihub)
 * [Current data processing strategies for cryo-electron tomography and subtomogram averaging](https://portlandpress.com/biochemj/article/478/10/1827/228677/Current-data-processing-strategies-for-cryo)
@@ -47,14 +48,13 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 * [A collective resource](https://teamtomo.org/index.html) - A great repository that covers tomography.
 * [Math behind CryoEM](https://github.com/geoffwoollard/learn_cryoem_math) - A great repository that collects the materials which elaborate the math behind single-particle analysis and CryoET.
 
-
 ## Events and News
 * [3DEM Events](http://www.emdatabank.org/3dem_events.html)
 * [NRAMM Events](http://nramm.nysbc.org/workshops-and-courses/?lcp_page0=1#lcp_instance_0)
 
 ## [Software](http://3dem.ucsd.edu/software.shtm)
 * [Scipion](http://scipion.i2pc.es/) - An integrated platform that allows users to use a variety of methods in the same framework. [[Documentation](https://scipion-em.github.io/docs/)]
-* [Relion](https://www3.mrc-lmb.cam.ac.uk/relion/index.php?title=Main_Page) - A comprehensive package. [[Documentation](https://relion.readthedocs.io/en/release-4.0/STA_tutorial/index.html#)]
+* [Relion](https://www.biorxiv.org/content/10.1101/2024.04.26.591129v1.abstract) - A comprehensive package. [[Documentation](https://relion.readthedocs.io/en/latest/STA_tutorial/index.html#)]
 * [nextPYP](https://www.nature.com/articles/s41592-023-02045-0) - [[Documentation](https://nextpyp.app/files/pyp/latest/docs/index.html)]
 * [emClarity](https://github.com/StochasticAnalytics/emClarity) - [[Documentation](https://github.com/ffyr2w/emClarity-tutorial)]
 * [IMDO](https://bio3d.colorado.edu/imod/)
@@ -119,8 +119,10 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 ### [Denoising tomogram](https://www.sciencedirect.com/science/article/pii/S104784772100109X)
 1. [`SC-Net`](https://github.com/icthrm/SC-Net) - [**Self-Supervised Cryo-Electron Tomography Volumetric Image Restoration from Single Noisy Volume with Sparsity Constraint**](https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Self-Supervised_Cryo-Electron_Tomography_Volumetric_Image_Restoration_From_Single_Noisy_Volume_ICCV_2021_paper.pdf)
 1. [`CryoCARE`](https://github.com/juglab/cryoCARE_T2T) - [**Content-aware image restoration for electron microscopy**](https://www.sciencedirect.com/science/article/abs/pii/S0091679X19300706?via%3Dihub)
-2. [`Topaz`](https://github.com/tbepler/topaz) - [**Topaz-Denoise: general deep denoising models for cryoEM**](https://www.nature.com/articles/s41467-020-18952-1)
-3. [`TomoEED`](https://sites.google.com/site/3demimageprocessing/tomoeed) - [**TomoEED: fast edge-enhancing denoising of tomographic volumes**](https://pubmed.ncbi.nlm.nih.gov/29850773/)
+1. [`Topaz`](https://github.com/tbepler/topaz) - [**Topaz-Denoise: general deep denoising models for cryoEM**](https://www.nature.com/articles/s41467-020-18952-1)
+1. [`TomoEED`](https://sites.google.com/site/3demimageprocessing/tomoeed) - [**TomoEED: fast edge-enhancing denoising of tomographic volumes**](https://pubmed.ncbi.nlm.nih.gov/29850773/)
+1. [`DUAL`] - [**DUAL: deep unsupervised simultaneous simulation and denoising for cryo-electron tomography**] ( Use in AITom)
+2. [`REST`](https://github.com/Zhang-hn1125/REST) - [**A method for restoring signals and revealing individual macromolecule states in cryo-ET, REST**](https://www.nature.com/articles/s41467-023-38539-w)
 
 ## [Particle picking](https://www.sciencedirect.com/science/article/pii/S0022283623001274)
 1. [`DeePiCt `](https://github.com/ZauggGroup/DeePiCt) - [**Convolutional networks for supervised mining of molecular patterns within cellular context**](https://www.nature.com/articles/s41592-022-01746-2)
@@ -128,7 +130,9 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`Cryolo`](https://cryolo.readthedocs.io/en/stable/) - [**SPHIRE-crYOLO is a fast and accurate fully automated particle picker for cryo-EM**](https://www.nature.com/articles/s42003-019-0437-z). [[Video](https://www.youtube.com/watch?v=JTgldM4wAAk&list=UUbo1TnKiXGtkE_R5b526JmQ&index=6&t=1s&app=desktop)]
 1. [`PySeg`](https://github.com/anmartinezs/pyseg_system) - [**Template-free detection and classification of membrane-bound complexes in cryo-electron tomograms**](https://www.nature.com/articles/s41592-019-0675-5)
 1. [`TomoTwin`](https://github.com/MPI-Dortmund/tomotwin-cryoet) - [**TomoTwin: generalized 3D localization of macromolecules in cryo-electron tomograms with structural data mining**](https://www.nature.com/articles/s41592-023-01878-z)
-1. [**Extensive Angular Sampling Enables the Sensitive Localization of Macromolecules in Electron Tomograms**](https://www.mdpi.com/1422-0067/24/17/13375) (Use in `PyTom`)
+1. [`pytom-match-pick`](https://github.com/SBC-Utrecht/pytom-match-pick) - [**Extensive Angular Sampling Enables the Sensitive Localization of Macromolecules in Electron Tomograms**](https://www.mdpi.com/1422-0067/24/17/13375) (Use in `PyTom`)
+1. [`TARDIS`](https://github.com/SMLC-NYSBC/TARDIS) - [**Automated Segmentation of 3D Cytoskeletal Filaments from Electron Micrographs with TARDIS**](https://academic.oup.com/mam/article/29/Supplement_1/970/7228849?login=true)
+2. [`TomoTwin`](https://github.com/MPI-Dortmund/tomotwin-cryoet) - [**TomoTwin: generalized 3D localization of macromolecules in cryo-electron tomograms with structural data mining**](https://www.nature.com/articles/s41592-023-01878-z)
 
 ## Sub-tomogram alignment and averaging
 1. [`emClarity`](https://github.com/StochasticAnalytics/emClarity) - [**emClarity: software for high-resolution cryo-electron tomography and subtomogram averaging**](https://www.nature.com/articles/s41592-018-0167-z)
@@ -148,6 +152,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`Chimera`](https://www.cgl.ucsf.edu/chimera/) - [**UCSF Chimera--a Visualization System for Exploratory Research and Analysis**](https://pubmed.ncbi.nlm.nih.gov/15264254/)
 2. [`ChimeraX`](http://www.rbvi.ucsf.edu/chimerax/) - [**UCSF ChimeraX: Meeting modern challenges in visualization and analysis**](https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3235)
 3. [`ArtiaX`](https://github.com/FrangakisLab/ArtiaX)
+4. [`blik`](https://github.com/brisvag/blik) - [**Blik is an extensible 3D visualisation tool for the annotation and analysis of cryo-electron tomography data**](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002447)
 
 # Conventions
 ## 3DEM Convention
