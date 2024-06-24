@@ -121,7 +121,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`CryoCARE`](https://github.com/juglab/cryoCARE_T2T) - [**Content-aware image restoration for electron microscopy**](https://www.sciencedirect.com/science/article/abs/pii/S0091679X19300706?via%3Dihub)
 1. [`Topaz`](https://github.com/tbepler/topaz) - [**Topaz-Denoise: general deep denoising models for cryoEM**](https://www.nature.com/articles/s41467-020-18952-1)
 1. [`TomoEED`](https://sites.google.com/site/3demimageprocessing/tomoeed) - [**TomoEED: fast edge-enhancing denoising of tomographic volumes**](https://pubmed.ncbi.nlm.nih.gov/29850773/)
-1. [`DUAL`] - [**DUAL: deep unsupervised simultaneous simulation and denoising for cryo-electron tomography**] ( Use in AITom)
+1. [`DUAL`] - [**DUAL: deep unsupervised simultaneous simulation and denoising for cryo-electron tomography**](https://www.biorxiv.org/content/10.1101/2024.03.02.583135v1)  (Use in `AITom`)
 2. [`REST`](https://github.com/Zhang-hn1125/REST) - [**A method for restoring signals and revealing individual macromolecule states in cryo-ET, REST**](https://www.nature.com/articles/s41467-023-38539-w)
 
 ## [Particle picking](https://www.sciencedirect.com/science/article/pii/S0022283623001274)
