@@ -117,7 +117,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`novaCTF`](https://github.com/turonova/novaCTF) - [**Efficient 3D-CTF correction for cryo-electron tomography using NovaCTF improves subtomogram averaging resolution to 3.4 Å**](https://www.sciencedirect.com/science/article/pii/S1047847717301272?via%3Dihub)
 1. [`Warp`](http://www.warpem.com/warp/?page_id=378) 
 1. [`M`](http://www.warpem.com/warp/?page_id=827) - [**Multi-particle cryo-EM refinement with M visualizes ribosome-antibiotic complex at 3.5 Å inside cells**](https://www.nature.com/articles/s41592-020-01054-7). [[Video]](https://www.youtube.com/watch?v=kiS-ELvQ1gc&list=PLFEB3YHuxu11Jp_pOCIEtXxSqozFHve0O&index=18)
-2. [`Ctfplotter`](https://bio3d.colorado.edu/ftp/standaloneCtfplotter/) - [**Accurate, automatic determination of astigmatism and phase with Ctfplotter in IMOD**](https://www.sciencedirect.com/science/article/pii/S104784772300120X) 
+2. [`Ctfplotter`](https://bio3d.colorado.edu/ftp/standaloneCtfplotter/) - [**Accurate, automatic determination of astigmatism and phase with Ctfplotter in IMOD**](https://www.sciencedirect.com/science/article/pii/S104784772300120X) (Use in `IMOD`)
 
 ## Tomogram reconstruction
 1. [**A Survey of the Use of Iterative Reconstruction Algorithms in Electron Microscopy**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5623807/)
@@ -141,7 +141,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`TARDIS`](https://github.com/SMLC-NYSBC/TARDIS) - [**Automated Segmentation of 3D Cytoskeletal Filaments from Electron Micrographs with TARDIS**](https://academic.oup.com/mam/article/29/Supplement_1/970/7228849?login=true)
 2. [`TomoTwin`](https://github.com/MPI-Dortmund/tomotwin-cryoet) - [**TomoTwin: generalized 3D localization of macromolecules in cryo-electron tomograms with structural data mining**](https://www.nature.com/articles/s41592-023-01878-z)
 3. [`TomoNet`](https://github.com/logicvay2010/TomoNet) - [**TomoNet: A streamlined cryogenic electron tomography software pipeline with automatic particle picking on flexible lattices**](https://www.cambridge.org/core/journals/biological-imaging/article/tomonet-a-streamlined-cryogenic-electron-tomography-software-pipeline-with-automatic-particle-picking-on-flexible-lattices/2634515FCC5CE369021280CB988D3324)
-4. [`cet_pick_size`](https://gitlab.cs.duke.edu/bartesaghilab/cet_pick_size) - [**Accurate size-based protein localization from cryo-ET tomograms **](https://www.sciencedirect.com/science/article/pii/S2590152424000096) (Use in `nextPYP`)
+4. [`cet_pick_size`](https://gitlab.cs.duke.edu/bartesaghilab/cet_pick_size) - [**Accurate size-based protein localization from cryo-ET tomograms**](https://www.sciencedirect.com/science/article/pii/S2590152424000096) (Use in `nextPYP`)
 5. [`PyTME`](https://github.com/ElsevierSoftwareX/SOFTX-D-23-00732) - [**PyTME (Python Template Matching Engine): A fast, flexible, and multi-purpose template matching library for cryogenic electron microscopy data**](https://www.sciencedirect.com/science/article/pii/S2352711024000074)
 
 ## Sub-tomogram alignment and averaging
