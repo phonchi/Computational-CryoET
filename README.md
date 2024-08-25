@@ -64,7 +64,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 * [AITom](https://github.com/xulabs/aitom)
 * [PyTom](https://github.com/FridoF/PyTom)
 * [TomoBEAR](https://github.com/KudryashevLab/TomoBEAR)
-
+* [STOPGAP](https://journals.iucr.org/d/issues/2024/05/00/vo5015/) - See [[Documentation]](https://github.com/wan-lab-vanderbilt/STOPGAP)]
 
 # Workflow
 ## Import Data
@@ -99,10 +99,16 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 
 ## Tilt-series alignment
 ### [Fiducial based](https://link.springer.com/chapter/10.1007/978-0-387-69008-7_6)
-1. [`IMOD`](https://bio3d.colorado.edu/imod/) - [**Automated tilt series alignment and tomographic reconstruction in IMOD**](https://www.sciencedirect.com/science/article/pii/S1047847716301526)
+1. [`IMOD`](https://bio3d.colorado.edu/imod/) - [**Automated tilt series alignment and tomographic reconstruction in IMOD**](https://www.sciencedirect.com/science/article/pii/S1047847716301526) (Use in `IMOD`)
+2. [`Dynamo`](https://www.dynamo-em.org/w/index.php?title=Downloads) - [**Automated ﬁducial-based alignment of cryo-electron tomography tilt series in Dynamo**](https://www.sciencedirect.com/science/article/pii/S0969212624002417) (Use in `Dynamo`)
+
 ### Fiducialless
 1. [`AreTomo`](https://drive.google.com/drive/folders/1Z7pKVEdgMoNaUmd_cOFhlt-QCcfcwF3_) - [**AreTomo: An integrated software package for automated marker-free, motion-corrected cryo-electron tomographic alignment and reconstruction**](https://www.sciencedirect.com/science/article/pii/S2590152422000095)
 1. [`TomoAlign`](https://sites.google.com/site/3demimageprocessing/tomoalign) - [**Cryo-tomography tilt-series alignment with consideration of the beam-induced sample motion**](https://www.sciencedirect.com/science/article/pii/S1047847718300285)
+1. [`Xmipp`](https://github.com/I2PC/xmipp) - [**A deep learning approach to the automatic detection of alignment errors in cryo-electron tomographic reconstructions **](https://www.sciencedirect.com/science/article/pii/S1047847723001193) (Use in `Xmipp`)
+
+### Detect fiducial marker
+1. [`MarkerDetector`](https://github.com/HaleyBG/MarkerDetector) - [**MarkerDetector: A method for robust fiducial marker detection in electron micrographs using wavelet-based template **] (Use in `IMOD`)
 
 ## CTF estimation and correction
 1. [`CTFFIND4`](https://grigoriefflab.umassmed.edu/ctffind4) - [**CTFFIND4: Fast and accurate defocus estimation from electron micrographs**](https://www.sciencedirect.com/science/article/pii/S1047847715300460) ( Use in [`CisTEM`](http://grigoriefflab.janelia.org/ctffind4))
@@ -111,6 +117,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`novaCTF`](https://github.com/turonova/novaCTF) - [**Efficient 3D-CTF correction for cryo-electron tomography using NovaCTF improves subtomogram averaging resolution to 3.4 Å**](https://www.sciencedirect.com/science/article/pii/S1047847717301272?via%3Dihub)
 1. [`Warp`](http://www.warpem.com/warp/?page_id=378) 
 1. [`M`](http://www.warpem.com/warp/?page_id=827) - [**Multi-particle cryo-EM refinement with M visualizes ribosome-antibiotic complex at 3.5 Å inside cells**](https://www.nature.com/articles/s41592-020-01054-7). [[Video]](https://www.youtube.com/watch?v=kiS-ELvQ1gc&list=PLFEB3YHuxu11Jp_pOCIEtXxSqozFHve0O&index=18)
+2. [`Ctfplotter`](https://bio3d.colorado.edu/ftp/standaloneCtfplotter/) - [**Accurate, automatic determination of astigmatism and phase with Ctfplotter in IMOD**](https://www.sciencedirect.com/science/article/pii/S104784772300120X) 
 
 ## Tomogram reconstruction
 1. [**A Survey of the Use of Iterative Reconstruction Algorithms in Electron Microscopy**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5623807/)
@@ -133,6 +140,9 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`pytom-match-pick`](https://github.com/SBC-Utrecht/pytom-match-pick) - [**Extensive Angular Sampling Enables the Sensitive Localization of Macromolecules in Electron Tomograms**](https://www.mdpi.com/1422-0067/24/17/13375) (Use in `PyTom`)
 1. [`TARDIS`](https://github.com/SMLC-NYSBC/TARDIS) - [**Automated Segmentation of 3D Cytoskeletal Filaments from Electron Micrographs with TARDIS**](https://academic.oup.com/mam/article/29/Supplement_1/970/7228849?login=true)
 2. [`TomoTwin`](https://github.com/MPI-Dortmund/tomotwin-cryoet) - [**TomoTwin: generalized 3D localization of macromolecules in cryo-electron tomograms with structural data mining**](https://www.nature.com/articles/s41592-023-01878-z)
+3. [`TomoNet`](https://github.com/logicvay2010/TomoNet) - [**TomoNet: A streamlined cryogenic electron tomography software pipeline with automatic particle picking on flexible lattices**](https://www.cambridge.org/core/journals/biological-imaging/article/tomonet-a-streamlined-cryogenic-electron-tomography-software-pipeline-with-automatic-particle-picking-on-flexible-lattices/2634515FCC5CE369021280CB988D3324)
+4. [`cet_pick_size`](https://gitlab.cs.duke.edu/bartesaghilab/cet_pick_size) - [**Accurate size-based protein localization from cryo-ET tomograms **](https://www.sciencedirect.com/science/article/pii/S2590152424000096) (Use in `nextPYP`)
+5. [`PyTME`](https://github.com/ElsevierSoftwareX/SOFTX-D-23-00732) - [**PyTME (Python Template Matching Engine): A fast, flexible, and multi-purpose template matching library for cryogenic electron microscopy data**](https://www.sciencedirect.com/science/article/pii/S2352711024000074)
 
 ## Sub-tomogram alignment and averaging
 1. [`emClarity`](https://github.com/StochasticAnalytics/emClarity) - [**emClarity: software for high-resolution cryo-electron tomography and subtomogram averaging**](https://www.nature.com/articles/s41592-018-0167-z)
@@ -153,6 +163,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 2. [`ChimeraX`](http://www.rbvi.ucsf.edu/chimerax/) - [**UCSF ChimeraX: Meeting modern challenges in visualization and analysis**](https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3235)
 3. [`ArtiaX`](https://github.com/FrangakisLab/ArtiaX)
 4. [`blik`](https://github.com/brisvag/blik) - [**Blik is an extensible 3D visualisation tool for the annotation and analysis of cryo-electron tomography data**](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002447)
+5. [`Colabseg`](https://github.com/KosinskiLab/colabseg) - [**ColabSeg: An interactive tool for editing, processing, and visualizing membrane segmentations from cryo-ET data **](https://www.sciencedirect.com/science/article/pii/S1047847724000078?dgcid=rss_sd_all)
 
 # Conventions
 ## 3DEM Convention
