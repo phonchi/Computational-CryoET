@@ -64,7 +64,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 * [AITom](https://github.com/xulabs/aitom)
 * [PyTom](https://github.com/FridoF/PyTom)
 * [TomoBEAR](https://github.com/KudryashevLab/TomoBEAR)
-* [STOPGAP](https://journals.iucr.org/d/issues/2024/05/00/vo5015/) - See [[Documentation]](https://github.com/wan-lab-vanderbilt/STOPGAP)]
+* [STOPGAP](https://journals.iucr.org/d/issues/2024/05/00/vo5015/) - See [[Documentation](https://github.com/wan-lab-vanderbilt/STOPGAP)]
 
 # Workflow
 ## Import Data
