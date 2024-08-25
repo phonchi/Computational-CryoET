@@ -108,7 +108,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`Xmipp`](https://github.com/I2PC/xmipp) - [**A deep learning approach to the automatic detection of alignment errors in cryo-electron tomographic reconstructions**](https://www.sciencedirect.com/science/article/pii/S1047847723001193) (Use in `Xmipp`)
 
 ### Detect fiducial marker
-1. [`MarkerDetector`](https://github.com/HaleyBG/MarkerDetector) - [**MarkerDetector: A method for robust fiducial marker detection in electron micrographs using wavelet-based template**] (Use in `IMOD`)
+1. [`MarkerDetector`](https://github.com/HaleyBG/MarkerDetector) - [**MarkerDetector: A method for robust fiducial marker detection in electron micrographs using wavelet-based template**](https://www.sciencedirect.com/science/article/pii/S1047847723001077) (Use in `IMOD`)
 
 ## CTF estimation and correction
 1. [`CTFFIND4`](https://grigoriefflab.umassmed.edu/ctffind4) - [**CTFFIND4: Fast and accurate defocus estimation from electron micrographs**](https://www.sciencedirect.com/science/article/pii/S1047847715300460) ( Use in [`CisTEM`](http://grigoriefflab.janelia.org/ctffind4))
