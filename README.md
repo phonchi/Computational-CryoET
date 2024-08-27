@@ -163,7 +163,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 2. [`ChimeraX`](http://www.rbvi.ucsf.edu/chimerax/) - [**UCSF ChimeraX: Meeting modern challenges in visualization and analysis**](https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3235)
 3. [`ArtiaX`](https://github.com/FrangakisLab/ArtiaX)
 4. [`blik`](https://github.com/brisvag/blik) - [**Blik is an extensible 3D visualisation tool for the annotation and analysis of cryo-electron tomography data**](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002447)
-5. [`Colabseg`](https://github.com/KosinskiLab/colabseg) - [**ColabSeg: An interactive tool for editing, processing, and visualizing membrane segmentations from cryo-ET data **](https://www.sciencedirect.com/science/article/pii/S1047847724000078?dgcid=rss_sd_all)
+5. [`Colabseg`](https://github.com/KosinskiLab/colabseg) - [**ColabSeg: An interactive tool for editing, processing, and visualizing membrane segmentations from cryo-ET data**](https://www.sciencedirect.com/science/article/pii/S1047847724000078?dgcid=rss_sd_all)
 
 # Conventions
 ## 3DEM Convention
