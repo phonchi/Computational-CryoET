@@ -83,6 +83,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
     * https://github.com/xulabs/aitom/blob/master/doc/tutorials/003_simulate_subtomogram.py
     * https://github.com/anmartinezs/pyseg_system/blob/master/code/pyorg/scripts/synthetic/gen_microsomes.py
     * https://www.shrec.net/cryo-et/
+    * [`parakeet`](https://github.com/rosalindfranklininstitute/parakeet) - [**Parakeet: A digital twin software pipeline to assess the impact of experimental parameters on tomographic reconstructions for cryo-electron tomography**](https://royalsocietypublishing.org/doi/10.1098/rsob.210160)
 
 ## Image Formation model
 1. [`TEM Simulator`](http://tem-simulator.sourceforge.net/) - [**Simulation of transmission electron microscope images of biological specimens**](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2818.2011.03497.x)
@@ -130,6 +131,7 @@ The format for the item is [software link] - [Paper link] (Available in which pa
 1. [`TomoEED`](https://sites.google.com/site/3demimageprocessing/tomoeed) - [**TomoEED: fast edge-enhancing denoising of tomographic volumes**](https://pubmed.ncbi.nlm.nih.gov/29850773/)
 1. `DUAL` - [**DUAL: deep unsupervised simultaneous simulation and denoising for cryo-electron tomography**](https://www.biorxiv.org/content/10.1101/2024.03.02.583135v1)  (Use in `AITom`)
 2. [`REST`](https://github.com/Zhang-hn1125/REST) - [**A method for restoring signals and revealing individual macromolecule states in cryo-ET, REST**](https://www.nature.com/articles/s41467-023-38539-w)
+3. [`CCPEM Denoiser`](https://gitlab.com/ccpem/ccpem-denoiser)
 
 ## [Particle picking](https://www.sciencedirect.com/science/article/pii/S0022283623001274)
 1. [`DeePiCt `](https://github.com/ZauggGroup/DeePiCt) - [**Convolutional networks for supervised mining of molecular patterns within cellular context**](https://www.nature.com/articles/s41592-022-01746-2)
